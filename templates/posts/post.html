@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>message homepage loader
+    <ul>
+        {% for post in object_list %}
+            <li>{{post}}</li>
+        {% endfor %}
+    </ul>
+</h2>
+{% endblock %}
